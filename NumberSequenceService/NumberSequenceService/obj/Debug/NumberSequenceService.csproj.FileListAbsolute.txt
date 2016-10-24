@@ -1,0 +1,14 @@
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\NumberSequenceService.dll.config
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\NumberSequenceService.dll
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\NumberSequenceService.pdb
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.ServiceLocation.dll
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.Unity.dll
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.ServiceLocation.xml
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.Unity.xml
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\obj\Debug\NumberSequenceService.dll
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceService\obj\Debug\NumberSequenceService.pdb

@@ -1,0 +1,4 @@
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\Common\bin\Debug\Common.dll
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\Common\bin\Debug\Common.pdb
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\Common\obj\Debug\Common.dll
+C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\Common\obj\Debug\Common.pdb

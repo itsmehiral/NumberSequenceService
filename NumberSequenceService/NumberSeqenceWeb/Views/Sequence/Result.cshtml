@@ -1,0 +1,24 @@
+﻿@model NumberSeqenceWeb.SequenceResponseModel
+<div>
+    <h2>Sequence Result</h2>
+    <div>
+        
+        <a href="javascript:void(0);" onclick="history.go(-1);">Back to Main Page</a>
+
+        <table border="1">
+            @foreach (var item in Model.Sequences)
+            {
+                <tr>
+                    <td style="background-color:White;">
+                        @item.Key
+                    </td>
+                    <td id="@item.Key" style="background-color:White;">
+                        @item.Value
+                    </td>
+                </tr>
+            }
+        </table>
+
+
+    </div>
+</div>

@@ -1,0 +1,36 @@
+﻿@model NumberSeqenceWeb.SequenceRequestModel
+
+@{
+    ViewBag.Title = "NumberSequence";
+}
+<div>
+    
+
+        The following numeric sequences shall be displayed:  <br /><br />
+
+    1.1 All numbers up to and including the number entered,  <br />
+    1.2 All odd numbers up to and including the number entered,  <br />
+    1.3 All even numbers up to and including the number entered,  <br />
+    1.4 All numbers up to and including the number entered, except  when,  <br />
+        1.4.1 A number is a multiple of 3 output C, and when,  <br />
+        1.4.2 A number is a multiple of 5 output E, and when,   <br />
+        1.4.3 A number is a multiple of both 3 and 5 output Z,  <br />
+    1.5 All fibonacci number up to and including the number entered <br />
+</div>
+@using (Html.BeginForm("GetSequence", "Sequence", FormMethod.Post))
+{
+    <div>
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+    </div>
+    <div>
+        Please enter whole number less than or equal to 99999 in the textbox below. <br />
+    </div>
+    <div>
+        @Html.TextBoxFor(m => m.InputNumber)
+    </div>
+    <div>
+        <input type="submit" value="Get Sequence" />
+    </div>
+}
+
+
