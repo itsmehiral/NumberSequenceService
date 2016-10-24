@@ -3,7 +3,7 @@
   <xs:element name="GetAllNumbers">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="number" type="xs:long" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

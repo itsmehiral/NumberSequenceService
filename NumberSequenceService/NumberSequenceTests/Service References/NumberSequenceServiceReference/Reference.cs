@@ -16,10 +16,10 @@ namespace NumberSequenceTests.NumberSequenceServiceReference {
     public interface INumberSequence {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/INumberSequence/GetAllNumbers", ReplyAction="http://tempuri.org/INumberSequence/GetAllNumbersResponse")]
-        string GetAllNumbers(string input);
+        string GetAllNumbers(long number);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/INumberSequence/GetAllNumbers", ReplyAction="http://tempuri.org/INumberSequence/GetAllNumbersResponse")]
-        System.Threading.Tasks.Task<string> GetAllNumbersAsync(string input);
+        System.Threading.Tasks.Task<string> GetAllNumbersAsync(long number);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/INumberSequence/GetOddNumbers", ReplyAction="http://tempuri.org/INumberSequence/GetOddNumbersResponse")]
         string GetOddNumbers(long number);
@@ -73,12 +73,12 @@ namespace NumberSequenceTests.NumberSequenceServiceReference {
                 base(binding, remoteAddress) {
         }
         
-        public string GetAllNumbers(string input) {
-            return base.Channel.GetAllNumbers(input);
+        public string GetAllNumbers(long number) {
+            return base.Channel.GetAllNumbers(number);
         }
         
-        public System.Threading.Tasks.Task<string> GetAllNumbersAsync(string input) {
-            return base.Channel.GetAllNumbersAsync(input);
+        public System.Threading.Tasks.Task<string> GetAllNumbersAsync(long number) {
+            return base.Channel.GetAllNumbersAsync(number);
         }
         
         public string GetOddNumbers(long number) {

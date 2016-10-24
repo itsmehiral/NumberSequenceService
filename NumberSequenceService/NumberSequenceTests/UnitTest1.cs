@@ -13,38 +13,17 @@ namespace NumberSequenceTests
     {
         INumberSequence client = null;
         
-        
         [TestInitialize]
         public void TestInitialize()
         {
             var container = new UnityContainer();
-
-            container.RegisterInstance<NumberSequenceClient>(new NumberSequenceClient());
-            container.RegisterType<ISequenceHelper, SequenceHelper>();
             client = new NumberSequenceClient();
-            
-            //container.Resolve<INumberSequence>();
-            
         }
 
-        [TestMethod]
-        [ExpectedException(typeof(FaultException))]
-        public void TestGetAllNumbersExpectedExceptionNegativeInput()
-        {
-            client.GetAllNumbers("-10");
-        }
-
-        [TestMethod]
-        [ExpectedException(typeof(FaultException))]
-        public void TestGetAllOddNumbersExceptedExceptionNegativeInput()
-        {
-            client.GetAllNumbers("-10");
-        }
-      
         [TestMethod]
         public void TestGetAllNumbersPositiveNumberInput()
         {
-            var result = client.GetAllNumbers("10");
+            var result = client.GetAllNumbers(10);
             string match = "0 1 2 3 4 5 6 7 8 9 10";
             Assert.AreEqual(match, result);
         }
@@ -52,7 +31,7 @@ namespace NumberSequenceTests
         [TestMethod]
         public void TestGetAllNumbersZeroNumberInput()
         {
-            var result = client.GetAllNumbers("0");
+            var result = client.GetAllNumbers(0);
             string match = "0";
             Assert.AreEqual(match, result);
         }

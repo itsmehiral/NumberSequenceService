@@ -6,3 +6,11 @@ C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceServi
 C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceHost\obj\Debug\NumberSequenceHost.csprojResolveAssemblyReference.cache
 C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceHost\obj\Debug\NumberSequenceHost.exe
 C:\HiralData\Test Projects\WCF\Westpac\NumberSequenceService\NumberSequenceService\NumberSequenceHost\obj\Debug\NumberSequenceHost.pdb
+C:\HiralData\Test Projects\WCF\NumberSequenceService\NumberSequenceService\NumberSequenceHost\bin\Debug\NumberSequenceHost.exe.config
+C:\HiralData\Test Projects\WCF\NumberSequenceService\NumberSequenceService\NumberSequenceHost\bin\Debug\NumberSequenceHost.exe
+C:\HiralData\Test Projects\WCF\NumberSequenceService\NumberSequenceService\NumberSequenceHost\bin\Debug\NumberSequenceHost.pdb
+C:\HiralData\Test Projects\WCF\NumberSequenceService\NumberSequenceService\NumberSequenceHost\bin\Debug\NumberSequenceService.dll
+C:\HiralData\Test Projects\WCF\NumberSequenceService\NumberSequenceService\NumberSequenceHost\bin\Debug\NumberSequenceService.pdb
+C:\HiralData\Test Projects\WCF\NumberSequenceService\NumberSequenceService\NumberSequenceHost\obj\Debug\NumberSequenceHost.csprojResolveAssemblyReference.cache
+C:\HiralData\Test Projects\WCF\NumberSequenceService\NumberSequenceService\NumberSequenceHost\obj\Debug\NumberSequenceHost.exe
+C:\HiralData\Test Projects\WCF\NumberSequenceService\NumberSequenceService\NumberSequenceHost\obj\Debug\NumberSequenceHost.pdb
