@@ -1,6 +1,6 @@
 #NumberSequence
 ##Details of applications, frameworks required to run your solution
-This solution is developed using Visual Studio 2013 (.Net Framework 4.5), WCF Service, MVC5 and Unit tested with the use of MSUnit      Test.
+This solution is developed using Visual Studio 2013 (.Net Framework 4.5), WCF Service, MVC5, AngularJs 1.5 and Unit tested with the use of MSUnit      Test.
 Nuget Package for Dependancy Injection - Unity.MVC5 to solve DI, Data Annotations for Validations,Moq for Mocking Objects in Unit        Test
 ##Technical description :
 Solution contains 5 projects:  
