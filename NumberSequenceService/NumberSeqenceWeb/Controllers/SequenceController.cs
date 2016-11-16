@@ -23,8 +23,18 @@ namespace NumberSeqenceWeb.Controllers
         [HttpPost]
         public ActionResult GetSequence(SequenceRequestModel model)
         {
+            if (!ModelState.IsValid)
+            {
+                return Json(new
+                {
+                    success = false,
+                    errors = ModelState.Keys.SelectMany(k => ModelState[k].Errors)
+                                    .Select(m => m.ErrorMessage).ToArray()
+                });
+            }
             SequenceResponseModel resp = _client.GetSequences(model);
-            return View("Result", resp);
+            return Json(resp);
+            //return View("Result", resp);
         }
       
     }
